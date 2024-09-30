@@ -2,8 +2,10 @@
 {
     public enum Role
     {
-        User,
-        Admin,
-        Employee
+        Patient,
+        Dentist,
+        Assistant,
+        Receptionist,
+        Admin
     }
 }
