@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Database.Repositories.Base
 {
-    public interface ICrudRepository<T>
+    public interface ICrudRepository<T> where T : class
     {
         Task<T?> GetById(Guid id);
         Task<IEnumerable<T>> GetAll();
